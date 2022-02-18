@@ -10,7 +10,7 @@ function alertButton() {
     return resp.json(); 
  }).then(function(data)
  {
-   console.log(data);
+  
    document.querySelector("#quote").innerHTML = data.content;
    document.querySelector("#auth").innerHTML = data.author;
  });
